@@ -1,0 +1,128 @@
+/* Global Styles */
+:root {
+  --gold-color: #ebc137;
+  --dark-color: black;
+  --light-color: #f4f4f4;
+  --gray-color: #242424;
+}
+
+/* General */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", "Helvetica", "Arial", sans-serif;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font-size: 1rem;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light-color);
+}
+
+/* Header - Navbar */
+header {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  top: 0px;
+  left: 0px;
+  height: 106px;
+  width: 100%;
+  border-bottom: dotted 4px var(--gold-color);
+  padding: 10px 10px 10px 160px;
+  background-color: var(--dark-color);
+}
+
+header img {
+  position: fixed;
+  top: 8px;
+  left: 16px;
+  max-width: 128px;
+  border-radius: 50%;
+  border: solid 3px var(--gold-color);
+}
+
+.spacer {
+  margin-bottom: 150px;
+}
+
+.button {
+  font-size: 1rem;
+  border: solid 1px var(--gold-color);
+  padding: 8px 20px 8px 20px;
+}
+
+/* All Sections */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin-bottom: 60px;
+}
+
+/* About */
+.top {
+  margin-bottom: 20px;
+  opacity: 0.25;
+  color: var(--gold-color);
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* Projects */
+.projects {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+div img {
+  max-width: 240px;
+  border: solid 1px var(--light-color);
+  margin-bottom: 10px;
+}
+
+.tech {
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Contact */
+.contact {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.phone {
+  border-bottom: solid 1px var(--gold-color);
+  margin-bottom: 10px;
+}
+
+.email {
+  border-bottom: solid 1px var(--gold-color);
+  margin-bottom: 10px;
+}
